@@ -1,0 +1,36 @@
+
+###
+POST http://localhost:1234/medico/cadastrar
+Content-Type: application/json
+
+{
+    "nome":"Jean",
+    "crm":"34342",
+    "especialidade":"Radiologia"
+}
+
+###
+GET http://localhost:1234/medico/listar
+
+###
+GET http://localhost:1234/medico/buscar/1234
+
+
+###
+DELETE  http://localhost:1234/medico/remover/4312ar
+
+###
+PUT http://localhost:1234/medico/alterar
+Content-Type: application/json
+
+{
+    "_id":"608c077c427b6d35901ac06e",
+    "nome":"Felipe",
+    "crm":"1234",
+    "especialidade":"Oftalmologia"
+    
+}
+
+
+
+
